@@ -65,11 +65,8 @@ const Header = (_) => {
       // console.log(query);
     }
   };
-  const handleClick = () => {
-    // 👇️ replace set to true
-    
-  };
-  return (
+ 
+  
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
@@ -107,7 +104,7 @@ const Header = (_) => {
       </AppBar>
      
     </Box>
-  );
+  
 };
 
 export default Header;
